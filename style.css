@@ -1,0 +1,93 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1%;
+
+
+
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 10%;
+
+
+}
+
+.text {
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(101, 101, 101);
+    font-size: 18px;
+    font-family: Arial;
+
+}
+
+.banner {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+
+
+
+}
+
+.line {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    color: rgb(64, 62, 62);
+    font-size: 50px;
+    font-family: Arial;
+    margin: 1%;
+
+}
+
+.line2 {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    color: rgb(64, 62, 62);
+    font-size: 20px;
+    font-family: Arial;
+    margin: 3%;
+
+
+}
+
+.but {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+button {
+    background-color: #007bff;
+    /* Blue background */
+    color: #ffffff;
+    /* White text */
+    border: none;
+    /* No border */
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding for size */
+    font-size: 20px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    text-align: center;
+    /* Center-align text */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
